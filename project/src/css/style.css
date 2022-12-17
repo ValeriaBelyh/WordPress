@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.top {
+  background-image: url("/src/img/backgrounds/laptop.jpg");
+  width: 100%;
+  height: 400px;
+}
+.container {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.logo img {
+  width: 41px;
+  height: 35px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo span {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 7px;
+  margin-top: 7px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 27px;
+  text-align: center;
+}
+.text .title h1,
+.text .title h3 {
+  font-size: 21px;
+  color: #eabe49;
+  text-transform: uppercase;
+}
+.text .title h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  width: 300px;
+  display: block;
+}
+.lineText div {
+  width: 146px;
+  border-bottom: 1px solid white;
+}
+.lineText {
+  display: flex;
+  align-items: center;
+}
+.description {
+  margin-top: 12px;
+  width: 557px;
+  height: 38px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 11px;
+}
+.descriptionFree {
+  text-transform: uppercase;
+  color: #eabe49;
+  font-weight: bold;
+}
+.buttonWrapper {
+  width: 200px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 37px;
+  box-shadow: inset 0px -2.5px 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 2px rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #5b97b6, #70b5d8);
+  border-radius: 5px;
+}
+.buttonText {
+  font-size: 11px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  padding: 0;
+}
+.button {
+  text-align: center;
+}
+.moreButton {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 100;
+  color: #fff;
+  margin-top: 37px;
+}
+.expectation {
+  background-image: url("/src/img/backgrounds/white.jpg");
+  width: 100%;
+  height: 302px;
+}
+.containerExpectation {
+  width: 570px;
+  margin: 0 auto;
+}
+.textExpectation {
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 23px;
+}
+.textExpectation h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  color: #2a2a2a;
+}
+.linеYellow {
+  margin-top: 9px;
+  width: 109px;
+  border-bottom: 2px solid #eabe49;
+}
+.textExpectation p {
+  margin-top: 9px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.threePictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.styleImg {
+  width: 171px;
+}
+
+.styleImg img {
+  width: 171px;
+  height: 101px;
+}
+.styleImg p {
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.girl {
+  background-color: #fff;
+  width: 100%;
+  height: 275px;
+  position: relative;
+}
+.girl img {
+  width: 434px;
+  height: 251px;
+  position: absolute;
+  left: 23%;
+  z-index: 4;
+}
+.containerGirl {
+  position: absolute;
+  left: 45%;
+  z-index: 5;
+  width: 570px;
+  margin: 0 auto;
+}
+.textGirl {
+  font-size: 8px;
+  font-weight: 300;
+  width: 375px;
+  color: #4b4b4b;
+}
+.containerGirl h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: left;
+  color: #5e9bba;
+  margin-top: 51px;
+  margin-bottom: 13px;
+  width: 375px;
+}
+.textGirl p {
+  margin-bottom: 13px;
+}
+#textGirlFat {
+  font-weight: 900;
+}
+.end {
+  background-image: url("/src/img/backgrounds/laptop.jpg");
+  width: 100%;
+  height: 224px;
+}
+.containerEnd {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.containerEnd h6 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  color: #efefef;
+  margin-bottom: 12px;
+}
+.linеYellowTwo {
+  width: 109px;
+  border-bottom: 2px solid #eabe49;
+  margin-bottom: 21px;
+}
+.fiveCircles {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  font-size: 8px;
+  font-weight: 300;
+  color: #efefef;
+}
+.blueCircle {
+  width: 58px;
+  height: 58px;
+  background-color: #c1e1fe;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+.blueCircle img {
+  width: 34px;
+}
+.gift {
+  background-image: url("/src/img/backgrounds/grey.jpg");
+  width: 100%;
+  height: 302px;
+}
+.containerGift {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerGift p {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 21px;
+}
+.containerGift img {
+  /* Можно ли как-то вставить id там где class чтобы присвоить старой кнопке одно новое свойство margin top вместо создания абсолютно новой */
+  width: 77px;
+  justify-content: center;
+}
+.vebinar {
+  width: 100%;
+  height: 258px;
+  background-color: #fff;
+}
+.containerVebinar {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vebinar img {
+  width: 171px;
+  height: 101px;
+}
+.containerVebinar .firstVebinar {
+  font-size: 15px;
+  font-weight: normal;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  margin-top: 19px;
+  margin-bottom: 15px;
+}
+.containerVebinar .date {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #5e9bba;
+  margin-bottom: 13px;
+}
+.containerVebinar .firstVebinarEnd {
+  font-size: 11px;
+  color: #4b4b4b;
+  margin-bottom: 32px;
+}
+.futer {
+  background-image: url("/src/img/backgrounds/black.jpg");
+  width: 100%;
+  height: 83px;
+}
+
+.containerFuter {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textLink {
+  font-size: 8px;
+  font-weight: 300;
+  color: #878787 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 189px;
+  justify-content: space-between;
+}
+.textLink a {
+  font-size: 8px;
+  font-weight: 300;
+  color: #878787 !important;
+}
+.textFuter {
+  font-size: 8px;
+  font-weight: 300;
+  color: #878787;
+}
